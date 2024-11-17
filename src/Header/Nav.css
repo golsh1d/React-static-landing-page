@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-wrapper{
+    width: 100%;
+    height: min-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-sections-wrapper {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    font-weight: 700;
+    font-family: "Lato" , sans-serif;
+}
+
+.nav-menu li a , .ham {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.nav-menu li a:hover , .ham:hover {
+    color: #FFDE00;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 94%;
+    }
+    .d-none-max-768 {
+        display: none;
+    }
+    .d-block-max-768 {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+    .ml-20 {
+        margin-left: 20px;
+    }
+    .d-none-min-768 {
+        display: none;
+    }
+    .d-block-min-768 {
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .ml-40 {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+}
