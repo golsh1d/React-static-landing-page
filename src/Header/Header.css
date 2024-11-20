@@ -169,8 +169,8 @@
     .height-min-width-992 {
         height: 1032px;
     }
-    .bg-attachement-fix-min-width-768 {
-        background-attachment: fix;
+    .bg-attachement-fix-min-width-992 {
+        background-attachment: fixed;
     }
 }
 

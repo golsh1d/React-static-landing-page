@@ -6,7 +6,7 @@ function Header() {
         <header className="Header-wrapper">
             <Nav></Nav>
             <div className="Header-img-wrapper height-min-width-1200 height-min-width-992 height-min-width-768 height-max-width-768
-            bg-attachement-scroll-min-width-768 bg-attachement-scroll-min-width-768 bg-attachement-fix-min-width-768">
+            bg-attachement-scroll-min-width-768 bg-attachement-scroll-min-width-768 bg-attachement-fix-min-width-992">
                 <div className="Header-img-overlay"></div>
             </div>
             <div className="Header-detail container">
