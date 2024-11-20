@@ -18,6 +18,10 @@
     width: 100%;
     position: relative;
     z-index: 1;
+    background: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
 }
 
 .Header-img-overlay {
@@ -28,11 +32,6 @@
     top: 0;
     left: 0;
     right: 0;
-}
-
-.Header-img-wrapper img {
-    width: 100%;
-    height: 100%;
 }
 
 .Header-detail {
@@ -137,6 +136,9 @@
     .learn-more-btn-mb-max-width-768 {
         margin-bottom: 30px;
     }
+    .bg-attachement-scroll-min-width-768 {
+        background-attachment: scroll;
+    }
 }
 
 @media (min-width: 768px) {
@@ -155,6 +157,9 @@
     .learn-more-btn-mb-min-width-768 {
         margin-bottom: 0px;
     }
+    .bg-attachement-scroll-min-width-768 {
+        background-attachment: scroll;
+    }
 }
 
 @media (min-width: 992px) {
@@ -163,6 +168,9 @@
     }
     .height-min-width-992 {
         height: 1032px;
+    }
+    .bg-attachement-fix-min-width-768 {
+        background-attachment: fix;
     }
 }
 
