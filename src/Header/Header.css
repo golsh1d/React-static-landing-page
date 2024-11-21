@@ -152,7 +152,7 @@
         font-size: 80px;
     }
     .display-header-description-min-width-768 {
-        display: block;
+        display: none;
     }
     .learn-more-btn-mb-min-width-768 {
         margin-bottom: 0px;
@@ -171,6 +171,9 @@
     }
     .bg-attachement-fix-min-width-992 {
         background-attachment: fixed;
+    }
+    .display-header-description-min-width-992 {
+        display: block;
     }
 }
 

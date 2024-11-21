@@ -11,7 +11,7 @@ function Header() {
             </div>
             <div className="Header-detail container">
                 <h1 className="Header-title font-size-title-max-width-768 font-size-title-min-width-768">Clean<span></span>Slick<span></span>Pixel Perfect</h1>
-                <p className="Header-description display-header-description-max-width-768 display-header-description-min-width-768">
+                <p className="Header-description display-header-description-max-width-768 display-header-description-min-width-768 display-header-description-min-width-992">
                 lldy is a great one-page theme, perfect for developers and designers but also for someone who just wants a <br/>
                 new website for his business. Try it now!
                 </p>
