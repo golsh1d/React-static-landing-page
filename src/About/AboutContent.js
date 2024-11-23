@@ -1,4 +1,5 @@
 import './AboutContent.css'
+import propTypes from 'prop-types'
 
 function AboutContent({percent, icon, text, lineWidth, mainColor}) {
 
@@ -22,6 +23,14 @@ function AboutContent({percent, icon, text, lineWidth, mainColor}) {
             </div>
         </div>
     )
+}
+
+AboutContent.propTypes = {
+    percent : propTypes.string ,
+    icon : propTypes.string ,
+    text : propTypes.string ,
+    lineWidth : propTypes.string ,
+    mainColor : propTypes.string 
 }
 
 export default AboutContent
