@@ -1,0 +1,44 @@
+.Testimonials-wrapper {
+    width: 100%;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Testimonials-wrapper::before {
+    content: '';
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -101;
+}
+
+.TestimonialsItem-controller-wrapper{
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.TestimonialsItem-controller{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    margin: 0 7.5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
