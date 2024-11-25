@@ -20,9 +20,9 @@ function About() {
                 </div>
                 <div className="About-content-wrapper About-content-wrapper-flex-dir-col-max-width-768
                 About-content-wrapper-flex-dir-row-min-width-768">
-                    <AboutContent {...AboutContentInfo[0]} />
-                    <AboutContent {...AboutContentInfo[1]} />
-                    <AboutContent {...AboutContentInfo[2]} />
+                    {AboutContentInfo.map((AboutContentItem) => (
+                        <AboutContent {...AboutContentItem}/>
+                    ))}
                 </div>
             </div>
         </div>

@@ -18,10 +18,9 @@ function Projects() {
                 </div>
             </div>
             <div className="Projects-content">
-                <ProjectsItem {...ProjectsItemProps[0]}/>
-                <ProjectsItem {...ProjectsItemProps[1]}/>
-                <ProjectsItem {...ProjectsItemProps[2]}/>
-                <ProjectsItem {...ProjectsItemProps[3]}/>
+                {ProjectsItemProps.map((ProjectsItems) => (
+                    <ProjectsItem {...ProjectsItems}/>
+                ))}
             </div>
         </div>
     )
