@@ -4,16 +4,16 @@ import CounterContent from './CounterContent'
 function Counter() {
 
     let CounterContentProps = [
-        {count : 260 , description : 'PROJECTS'},
-        {count : 120 , description : 'CLIENTS'},
-        {count : 260 , description : 'COFFES'},
+        {id : 1 , count : 260 , description : 'PROJECTS'},
+        {id : 2 , count : 120 , description : 'CLIENTS'},
+        {id : 3 , count : 260 , description : 'COFFES'},
     ]
 
     return(
         <div className='Counter-wrapper'>
             <div className='Counter-main-content container'>
                 {CounterContentProps.map((CounterContentProp) => (
-                    <CounterContent {...CounterContentProp}/>
+                    <CounterContent key={CounterContentProp.id} {...CounterContentProp}/>
                 ))}
             </div>
         </div>

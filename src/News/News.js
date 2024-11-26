@@ -4,9 +4,9 @@ import NewsContent from './NewsContent'
 function News() {
 
     let NewsContentProps = [
-        {image : './Img/News/News2.jpg' , title : 'We Have Made Illdy Theme SEO Friendly' , description : 'Illdy One Page WordPress theme is fully SEO friendly and is ready to help you to achieve the highest rankings…' } ,
-        {image : './Img/News/News1.jpg' , title : 'Stunning One Page WordPress Theme For Masses' , description : 'This theme is not just free, it is free for private and commercial use since it is licensed under GPL…' } ,
-        {image : './Img/News/News3.jpg' , title : 'Hello World!' , description : 'Welcome to colorlib.com. This is our first post around Illdy WordPress theme. Now show that you can make out of it.…' } ,
+        {id : 1 , image : './Img/News/News2.jpg' , title : 'We Have Made Illdy Theme SEO Friendly' , description : 'Illdy One Page WordPress theme is fully SEO friendly and is ready to help you to achieve the highest rankings…' } ,
+        {id : 2 , image : './Img/News/News1.jpg' , title : 'Stunning One Page WordPress Theme For Masses' , description : 'This theme is not just free, it is free for private and commercial use since it is licensed under GPL…' } ,
+        {id : 3 , image : './Img/News/News3.jpg' , title : 'Hello World!' , description : 'Welcome to colorlib.com. This is our first post around Illdy WordPress theme. Now show that you can make out of it.…' } ,
     ]
 
     return(
@@ -24,7 +24,7 @@ function News() {
                 </button>
                 <div className='News-content-wrapper'>
                     {NewsContentProps.map((NewsContentProp) => (
-                        <NewsContent {...NewsContentProp}/>
+                        <NewsContent key={NewsContentProp.id} {...NewsContentProp}/>
                     ))}
                 </div>
             </div>

@@ -3,10 +3,10 @@ import ProjectsItem from './ProjectsItem'
 
 function Projects() {
     let ProjectsItemProps = [
-        {image : './Img/Projects/Projects1.jfif'} ,
-        {image : './Img/Projects/Projects3.jfif'} ,
-        {image : './Img/Projects/Projects2.jfif'} ,
-        {image : './Img/Projects/Projects4.jfif'} ,
+        {id : 1 , image : './Img/Projects/Projects1.jfif'} ,
+        {id : 2 , image : './Img/Projects/Projects3.jfif'} ,
+        {id : 3 , image : './Img/Projects/Projects2.jfif'} ,
+        {id : 4 , image : './Img/Projects/Projects4.jfif'} ,
     ]
 
     return(
@@ -19,7 +19,7 @@ function Projects() {
             </div>
             <div className="Projects-content">
                 {ProjectsItemProps.map((ProjectsItems) => (
-                    <ProjectsItem {...ProjectsItems}/>
+                    <ProjectsItem key={ProjectsItems.id} {...ProjectsItems}/>
                 ))}
             </div>
         </div>

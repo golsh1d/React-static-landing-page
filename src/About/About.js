@@ -4,9 +4,9 @@ import AboutContent from './AboutContent'
 function About() {
 
     let AboutContentInfo = [
-        {percent : "60%" , icon : "custom_typography" , text : "Typography", lineWidth : "60%", mainColor : "#f18b6d"} ,
-        {percent : "82%" , icon : "edit" , text : "Design", lineWidth : "82%", mainColor : "#f1d204"} ,
-        {percent : "86%" , icon : "code" , text : "Development", lineWidth : "82%", mainColor : "#6a4d8a"} ,
+        {id : 1 , percent : "60%" , icon : "custom_typography" , text : "Typography", lineWidth : "60%", mainColor : "#f18b6d"} ,
+        {id : 2 , percent : "82%" , icon : "edit" , text : "Design", lineWidth : "82%", mainColor : "#f1d204"} ,
+        {id : 3 , percent : "86%" , icon : "code" , text : "Development", lineWidth : "82%", mainColor : "#6a4d8a"} ,
     ]
 
     return (
@@ -21,7 +21,7 @@ function About() {
                 <div className="About-content-wrapper About-content-wrapper-flex-dir-col-max-width-768
                 About-content-wrapper-flex-dir-row-min-width-768">
                     {AboutContentInfo.map((AboutContentItem) => (
-                        <AboutContent {...AboutContentItem}/>
+                        <AboutContent key={AboutContentItem.id} {...AboutContentItem}/>
                     ))}
                 </div>
             </div>
