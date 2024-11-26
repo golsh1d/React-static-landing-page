@@ -5,6 +5,7 @@ import Projects from './Projects/Projects';
 import Testimonials from './Testimonials/Testimonials';
 import Services from './Services/Services';
 import News from './News/News';
+import Counter from './Counter/Counter';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Testimonials />
       <Services />
       <News />
+      <Counter />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </div>
   );
 }
