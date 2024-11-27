@@ -6,6 +6,7 @@ import Testimonials from './Testimonials/Testimonials';
 import Services from './Services/Services';
 import News from './News/News';
 import Counter from './Counter/Counter';
+import Team from './Team/Team';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <News />
       <Counter />
+      <Team />
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </div>
   );
