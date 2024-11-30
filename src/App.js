@@ -7,6 +7,7 @@ import Services from './Services/Services';
 import News from './News/News';
 import Counter from './Counter/Counter';
 import Team from './Team/Team';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <News />
       <Counter />
       <Team />
+      <Contact />
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </div>
   );
