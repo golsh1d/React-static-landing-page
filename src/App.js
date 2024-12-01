@@ -8,6 +8,7 @@ import News from './News/News';
 import Counter from './Counter/Counter';
 import Team from './Team/Team';
 import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Counter />
       <Team />
       <Contact />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <Footer />
     </div>
   );
 }
